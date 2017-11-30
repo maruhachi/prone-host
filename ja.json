@@ -1,0 +1,267 @@
+{
+    "login": "GitHubで認証",
+    "docheader": {
+        "editing": "編集中",
+        "error": "エラー",
+        "preview": "プレビュー中"
+    },
+    "navigation": {
+        "newFile": "新規ファイル",
+        "edit": "編集",
+        "preview": "プレビュー",
+        "settings": "設定",
+        "meta": "メタデータ",
+        "save": "保存",
+        "login": "Githubで認証",
+        "about": "About",
+        "develop": "開発者向け",
+        "logout": "ログアウト",
+        "language": "言語"
+    },
+    "toolbar": {
+        "heading": "見出し",
+        "subHeading": "副見出し",
+        "link": "リンク挿入",
+        "image": "画像挿入",
+        "bold": "太字",
+        "italic": "イタリック",
+        "blockquote": "引用",
+        "list": "リスト",
+        "numberedlist": "番号リスト",
+        "help": "ヘルプ"
+    },
+    "heading": {
+        "explore": "プロジェクト検索"
+    },
+    "actions": {
+        "unsaved": "変更を保存していません。本当に終了しますか？",
+        "draft": {
+            "toPost": "投稿を下書き保存する",
+            "toPostInfo": "下書きを公開へ変更する"
+        },
+        "publishing": {
+            "publish": "公開",
+            "publishInfo": "この投稿は次に保存したタイミングで公開されます。",
+            "published": "公開済み",
+            "unpublish": "非公開",
+            "unpublished": "非公開済み",
+            "unpublishInfo": "この投稿は次に保存したタイミングで非公開となります。"
+        },
+        "change": {
+            "noChange": "変更なし",
+            "submit": "変更を投稿",
+            "save": "変更を保存"
+        },
+        "delete": {
+            "title": "削除",
+            "warn": "本当にこのファイルを削除しますか？",
+            "error": "削除中にエラーが発生しました。30秒待った後、再度実行してください。"
+        },
+        "upload": {
+            "uploading": "アップロード中: {file}",
+            "uploaded": "アップロード完了: {file}"
+        },
+        "save": {
+            "title": "保存",
+            "saved": "保存完了",
+            "saving": "保存中",
+            "patch": "投稿をリクエスト",
+            "fileNameError": "ファイル名が必要です",
+            "submission": "リクエスト投稿済み",
+            "metaError": "エラー！メタデータが見つかりません。",
+            "fileNameExists": "このファイル名はすでに存在します。"
+        },
+        "error": "エラーが発生しました。30秒後に再度実行してください。",
+        "restore": {
+            "restoring": "修復中",
+            "restored": "修復完了"
+        },
+        "commits": {
+            "created": "{filename}を作成",
+            "updated": "{filename}を更新",
+            "deleted": "{filename}を削除",
+            "toDraft": "{filename}の草案を作成",
+            "fromDraft": "{filename}の草案から投稿を作成"
+        }
+    },
+    "loading": {
+        "repos": "プロフィールをロード中",
+        "repo": "プロジェクトをロード中",
+        "file": "ファイルをロード中",
+        "preview": "ファイルをプレビュー中",
+        "creating": "新規投稿を作成中"
+    },
+    "modal": {
+        "errorHeading": "エラー",
+        "confirm": "OK"
+    },
+    "main": {
+        "start": {
+            "content": "Prose は投稿を作成・編集・削除するためのツールです。",
+            "learn": "Learn more"
+        },
+        "repos": {
+            "filter": "プロジェクトの検索",
+            "repo": "プロジェクトを表示",
+            "site": "サイトの表示",
+            "sharedFrom": "アカウントからのシェア",
+            "forkedFrom": "他のプロジェクトからのフォーク"
+        },
+        "repo": {
+            "filter": "ファイル検索",
+            "edit": "編集",
+            "delete": "このファイルを削除"
+        },
+        "new": {
+            "body": "## 新規投稿.\n\n [Markdown](http://qiita.com/Id_Seth/items/b684cfabe0f2fde0c67b)で記載してください。\nもしくは上部のツールバーをご利用ください。\n\n画像は文中にドラッグアンドドロップで挿入できます。**画像名に日本語を含めないでください**"
+        },
+        "file": {
+            "noTitle": "無題",
+            "metaTitle": "変更のレビュー:",
+            "rawMeta": "生のメタデータ",
+            "metaDescription": "追加は緑で表示。削除は線で表示。",
+            "back": "完了",
+            "createMeta": "新規作成"
+        },
+        "upgrade": {
+            "content": "お使いのブラウザではご利用することができません。",
+            "download": "現代的なブラウザのダウンロード"
+        }
+    },
+    "notification": {
+        "loginDescription": "プロジェクトにアクセスするにはGithubログインを行ってください。",
+        "create": "作成",
+        "home": "メインページに戻る",
+        "404": "このファイルは存在しないか、アクセスする権限がありません。Github認証を試みてください。",
+        "back": "戻る",
+        "githubStatus": "Githubステータス： ({status})",
+        "error": {
+            "label": "エラー",
+            "github": "Githubからデータをロードする間にエラーが発生しました。一時的な問題かと思われます。後ほど再度アクセスしてください。",
+            "exists": "このファイルは存在しません。",
+            "notFound": "ページが見つかりません。"
+        }
+    },
+    "sidebar": {
+        "repos": {
+            "groups": "グループ"
+        },
+        "repo": {
+            "branch": "ブランチの変更",
+            "drafts": "下書きの表示",
+            "history": {
+                "label": "最新の履歴",
+                "actions": {
+                    "restore": "修復しますか?"
+                }
+            },
+            "create": "ファイル新規作成"
+        },
+        "save": {
+            "label": "今回の変更の説明",
+            "cancel": "キャンセル",
+            "save": "保存",
+            "submit": "変更リクエストの送信"
+        },
+        "settings": {
+            "title": "オプション",
+            "fileInputLabel": "ファイルパス",
+            "delete": "このファイルを削除",
+            "translate": "翻訳",
+            "draft": "草案の作成"
+        }
+    },
+    "dialogs": {
+        "link": {
+            "title": "リンクの挿入",
+            "insertLocal": "内部リンクの挿入",
+            "insert": "挿入",
+            "hrefPlaceholder": "リンク URL",
+            "textPlaceholder": "リンク名",
+            "titlePlaceholder": "タイトル(任意)",
+            "insertPlaceholder": "内部リンクの挿入"
+        },
+        "media": {
+            "title": "画像の挿入",
+            "back": "戻る",
+            "hrefPlaceholder": "画像URL",
+            "altPlaceholder": "Altテキスト(任意)",
+            "description": "ドラッグ＆ドロップで画像を挿入するか、</br>\n{input} <a>ファイルを指定</a>\n",
+            "help": "アップロードした画像は現在の位置に追加されるか、画像URLを上部で指定したものとなります。",
+            "helpMedia": "アップロードした画像は'既存を選択'のフォルダか指定した画像URLに追加されます。",
+            "choose": "既存を選択"
+        },
+        "help": {
+            "blockElements": {
+                "title": "ブロック要素",
+                "content": {
+                    "paragraphs": {
+                        "title": "Paragraphs &amp; Breaks",
+                        "content": "<p>To create a paragraph, simply create a block of text that is separated by one or more blank lines. Blocks of text separated by one or more blank lines will be parsed as paragraphs.</p><p>If you want to create a line break, end a line with two or more spaces, then hit Return/Enter.</p>\n"
+                    },
+                    "headers": {
+                        "title": "ヘッダー",
+                        "content": "<p>Markdown supports two header formats. The wiki editor uses the &ldquo;atx&rsquo;-style headers. Simply prefix your header text with the number of <code>#</code> characters to specify heading depth. For example: <code># Header 1</code>, <code>## Header 2</code> and <code>### Header 3</code> will be progressively smaller headers. You may end your headers with any number of hashes.</p>\n"
+                    },
+                    "blockquotes": {
+                        "title": "引用",
+                        "content": "<p>Markdown creates blockquotes email-style by prefixing each line with the <code>&gt;</code>. This looks best if you decide to hard-wrap text and prefix each line with a <code>&gt;</code> character, but Markdown supports just putting <code>&gt;</code> before your paragraph.</p>\n"
+                    },
+                    "lists": {
+                        "title": "リスト",
+                        "content": "<p>Markdown supports both ordered and unordered lists. To create an ordered list, simply prefix each line with a number (any number will do &mdash; this is why the editor only uses one number.) To create an unordered list, you can prefix each line with <code>*</code>, <code>+</code> or <code>-</code>.</p> List items can contain multiple paragraphs, however each paragraph must be indented by at least 4 spaces or a tab.\n"
+                    },
+                    "codeBlocks": {
+                        "title": "コードブロック",
+                        "content": "<p>Markdown wraps code blocks in pre-formatted tags to preserve indentation in your code blocks. To create a code block, indent the entire block by at least 4 spaces or one tab. Markdown will strip the extra indentation you&rsquo;ve added to the code block.</p>\n"
+                    },
+                    "horizontalRules": {
+                        "title": "Horizontal Rules",
+                        "content": "<p>Horizontal rules are created by placing three or more hyphens, asterisks or underscores on a line by themselves. Spaces are allowed between the hyphens, asterisks or underscores.</p>\n"
+                    }
+                }
+            },
+            "spanElements": {
+                "title": "Span 要素",
+                "content": {
+                    "links": {
+                        "title": "リンク",
+                        "content": "<p>Markdown has two types of links: <strong>inline</strong> and <strong>reference</strong>. For both types of links, the text you want to display to the user is placed in square brackets. For example, if you want your link to display the text &ldquo;GitHub&rdquo;, you write <code>[GitHub]</code>.</p><p>To create an inline link, create a set of parentheses immediately after the brackets and write your URL within the parentheses. (e.g., <code>[GitHub](http://github.com/)</code>). Relative paths are allowed in inline links.</p><p>To create a reference link, use two sets of square brackets. <code>[my internal link][internal-ref]</code> will link to the internal reference <code>internal-ref</code>.</p>\n"
+                    },
+                    "emphasis": {
+                        "title": "強調",
+                        "content": "<p>Asterisks (<code>*</code>) and underscores (<code>_</code>) are treated as emphasis and are wrapped with an <code>&lt;em&gt;</code> tag, which usually displays as italics in most browsers. Double asterisks (<code>**</code>) or double underscores (<code>__</code>) are treated as bold using the <code>&lt;strong&gt;</code> tag. To create italic or bold text, simply wrap your words in single/double asterisks/underscores. For example, <code>**My double emphasis text**</code> becomes <strong>My double emphasis text</strong>, and <code>*My single emphasis text*</code> becomes <em>My single emphasis text</em>.</p>\n"
+                    },
+                    "code": {
+                        "title": "コード",
+                        "content": "<p>To create inline spans of code, simply wrap the code in backticks (<code>`</code>). Markdown will turn <code>`myFunction`</code> into <code>myFunction</code>.</p>\n"
+                    },
+                    "images": {
+                        "title": "画像",
+                        "content": "<p>Markdown image syntax looks a lot like the syntax for links; it is essentially the same syntax preceded by an exclamation point (<code>!</code>). For example, if you want to link to an image at <code>http://github.com/unicorn.png</code> with the alternate text <code>My Unicorn</code>, you would write <code>![My Unicorn](http://github.com/unicorn.png)</code>.</p>\n"
+                    }
+                }
+            },
+            "miscellaneous": {
+                "title": "Miscellaneous",
+                "content": {
+                    "automaticLinks": {
+                        "title": "Automatic Links",
+                        "content": "<p>If you want to create a link that displays the actual URL, Markdown allows you to quickly wrap the URL in <code>&lt;</code> and <code>&gt;</code> to do so. For example, the link <a href=\"javascript:void(0);\">http://github.com/</a> is easily produced by writing <code>&lt;http://github.com/&gt;</code>.</p>\n"
+                    },
+                    "escaping": {
+                        "title": "Escaping",
+                        "content": "<p>If you want to use a special Markdown character in your document (such as displaying literal asterisks), you can escape the character with the backslash (<code>\\\\</code>). Markdown will ignore the character directly after a backslash.</p>\n"
+                    }
+                }
+            }
+        }
+    },
+    "chooselanguage": {
+        "title": "言語の選択",
+        "description": "Prose is a translated application. If you don't see your language in the list, there are spelling errors, or translations are missing, consider <a href='https://www.transifex.com/projects/p/prose'>contributing translations to the project</a>.\n"
+    },
+    "about": {
+        "content": ""
+    }
+}
