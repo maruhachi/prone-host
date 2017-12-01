@@ -1,4 +1,4 @@
-window.locale = { _current: 'en' };
+window.locale = { _current: 'ja' };
 
 locale.current = function(_) {
     if (!arguments.length) return locale._current;
@@ -26,9 +26,9 @@ function t(s, o, loc) {
             return missing;
         }
 
-        if (loc !== 'en') {
+        if (loc !== 'ja') {
             missing();
-            return t(s, o, 'en');
+            return t(s, o, 'ja');
         }
 
         if (o && 'default' in o) {

@@ -1,6 +1,0 @@
-{
-  "api": "https://api.github.com",
-  "site": "https://github.com",
-  "clientId": "2f5a8cb2b9ffd244d3b4",
-  "gatekeeperUrl": "https://gatekeeper-ftr.herokuapp.com"
-}
